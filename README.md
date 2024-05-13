@@ -26,18 +26,18 @@ Open your web browser and navigate to http://localhost:8501.
 
 ## Acknowledgements
 - The colorization model is based on research by Richard Zhang, Phillip Isola, and Alexei A. Efros.
-<div class="center">
+<div align="center">
     <img src="https://github.com/saadii007/Image-Video-Colorization-using-LAB-Space/assets/126228618/8161cdc7-3467-46f9-9c9d-b8ae20dd9a56" alt="Image" style="width: 400px;">
 </div>
 
 ## Screenshots
-<div class="center">
+<div align="center">
     <img src="https://github.com/saadii007/Image-Video-Colorization-using-LAB-Space/assets/126228618/6e7a92f4-47c8-461f-bfa4-aac91dd1f8ad" alt="Image" style="width: 400px;">
 </div>
-<div class="center">
+<div align="center">
     <img src="https://github.com/saadii007/Image-Video-Colorization-using-LAB-Space/assets/126228618/6b2c6019-2289-469d-988a-df4b2299dd87" alt="Image" style="width: 400px;">
 </div>
-<div class="center">
+<div align="center">
     <img src="https://github.com/saadii007/Image-Video-Colorization-using-LAB-Space/assets/126228618/f8c2cce8-9692-4824-903f-d5ce55fd6277" alt="Image" style="width: 400px;">
 </div>
 
