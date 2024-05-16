@@ -11,8 +11,7 @@ This project aims to provide a comprehensive solution for image and video colori
 - Streamlit integration: Utilizes Streamlit for web application development and deployment.
 
 ## Requirements
-- Python 3.x
-- TensorFlow
+- Python 3.110
 - OpenCV
 - Streamlit
 
