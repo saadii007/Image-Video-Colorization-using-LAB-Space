@@ -30,8 +30,14 @@ Open your web browser and navigate to http://localhost:8501.
 </div>
 
 ## Screenshots
+
+1. Video Colorization
+
+<img src="https://github.com/saadii007/Image-Video-Colorization-using-LAB-Space/assets/126228618/6e7a92f4-47c8-461f-bfa4-aac91dd1f8ad" alt="Image" style="width: 400px;">
+
+2. Image Colorization
+
 <div>
-    <img src="https://github.com/saadii007/Image-Video-Colorization-using-LAB-Space/assets/126228618/6e7a92f4-47c8-461f-bfa4-aac91dd1f8ad" alt="Image" style="width: 400px;">
     <img src="https://github.com/saadii007/Image-Video-Colorization-using-LAB-Space/assets/126228618/f8c2cce8-9692-4824-903f-d5ce55fd6277" alt="Image" style="width: 400px;">
     <img src="https://github.com/saadii007/Image-Video-Colorization-using-LAB-Space/assets/126228618/6b2c6019-2289-469d-988a-df4b2299dd87" alt="Image" style="width: 400px;">
 </div>
