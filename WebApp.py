@@ -3,9 +3,32 @@ import cv2
 from PIL import Image
 import numpy as np
 import tempfile
+import os
+import urllib.request
+
+def download_model_files():
+    model_dir = "model"
+    os.makedirs(model_dir, exist_ok=True)
+
+    files = {
+        "colorization_release_v2.caffemodel": "https://github.com/mariyakhannn/imagecolorizer/raw/main/colorization_release_v2.caffemodel",
+        "colorization_deploy_v2.prototxt": "https://raw.githubusercontent.com/richzhang/colorization/caffe/colorization/models/colorization_deploy_v2.prototxt",
+        "pts_in_hull.npy": "https://raw.githubusercontent.com/richzhang/colorization/caffe/colorization/resources/pts_in_hull.npy"
+    }
+
+    for fname, url in files.items():
+        fpath = os.path.join(model_dir, fname)
+        if not os.path.exists(fpath):
+            st.info(f"Downloading {fname}...")
+            urllib.request.urlretrieve(url, fpath)
+
 
 def colorize_image(our_image):
-    net = cv2.dnn.readNetFromCaffe('model/colorization_deploy_v2.prototxt', 'model/colorization_release_v2.caffemodel')
+    download_model_files()
+    net = cv2.dnn.readNetFromCaffe(
+        'model/colorization_deploy_v2.prototxt',
+        'model/colorization_release_v2.caffemodel'
+    )
     pts = np.load('model/pts_in_hull.npy')
     # add the cluster centers as 1x1 convolutions to the model
     class8 = net.getLayerId("class8_ab")
