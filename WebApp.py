@@ -130,6 +130,7 @@ def main():
         st.markdown(html_temp, unsafe_allow_html=True)
         f = st.file_uploader("Upload file")
         if f is not None :
+            download_model_files()
             tfile = tempfile.NamedTemporaryFile(delete=False) 
             tfile.write(f.read())
             vf = cv2.VideoCapture(tfile.name)
