@@ -1,4 +1,4 @@
-# Image and Video Colorization using CIELab Color Space and Deep Learning
+# Image and Video Colorization using Lab Color Space and Deep Learning
 
 ## 📌 Overview
 This project aims to provide a comprehensive solution for image and video colorization using deep learning techniques. Using the help of CIELab color space, convolutional neural networks (CNNs) and modern web technologies, the project enables users to easily add color to grayscale images and videos.
